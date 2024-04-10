@@ -13,14 +13,16 @@
 	}
 
 	body {
-		color: #FFE88A;
-		background-color: #133563;
-		font-family: 'Comic Sans MS', cursive;
+		color: #FFF;
+		background-color: #3F51B5;
+		font-family: 'Arial', sans-serif;
+		text-align: center;
 	}
 
 	h1 {
-		font-size: 80px;
-		margin-bottom: 0;
+		font-size: 48px;
+		color: #FFEB3B;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	}
 
 	.container {
@@ -50,14 +52,20 @@
 	}
 
 	#restart {
+		margin-top: 20px;
 		padding: 10px 20px;
-		background-color: #F3B8FF;
+		background-color: #FF5722;
 		border: none;
 		border-radius: 20px;
-		color: #133563;
+		color: #FFF;
 		font-size: 20px;
 		font-weight: bold;
 		cursor: pointer;
+		transition: background-color 0.3s;
+	}
+
+	#restart:hover {
+		background-color: #F44336;
 	}
 </style>
 </HEAD>
